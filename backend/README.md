@@ -4,9 +4,12 @@ The Anythink Market backend is Node web app written with [Express](https://expre
 
 ## Getting started
 
-To start the app use: `yarn dev` from the backend directory.
+To start the app use: 
+`yarn install` + `yarn dev` 
+from the backend directory.
 
 Make sure your DB is up and running.
+Then set the MONGODB_URL in the .env file
 
 ## Dependencies
 
